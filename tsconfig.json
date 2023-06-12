@@ -1,4 +1,9 @@
 {
   "extends": "@tsconfig/node16/tsconfig.json",
+  "compilerOptions": {
+    "module": "esnext",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
   "exclude": ["packages"]
 }

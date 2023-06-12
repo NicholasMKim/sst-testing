@@ -28,6 +28,7 @@ class TestingController {
   }
 }
 
-const app = createExpressServer({
+export const app = createExpressServer({
+  classTransformer: true,
   controllers: [TestingController],
 });
